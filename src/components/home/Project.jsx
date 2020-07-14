@@ -12,13 +12,22 @@ import {
 const Project = () => {
   const [projectsArray, setProjectsArray] = useState([]);
 
+  var repoTitles = ['Drafti', 'espn-scraping', 'cen4721-water-tracker', 'cis4930-final'];
+
   const handleRequest = useCallback((e) => {
     axios
       .get(gitHubLink + gitHubUsername + gitHubQuerry)
       .then((response) => {
         // handle success
         // console.log(response.data.slice(0, 4));
-        return setProjectsArray(response.data.slice(0, projectsLength));
+
+        let test = response.data.filter((repo) => {
+          console.log(repo.name, repoTitles.includes(repo.name));
+          return repoTitles.includes(repo.name);
+        });
+        console.log(test);
+
+        return setProjectsArray(test);
       })
       .catch((error) => {
         // handle error
@@ -26,12 +35,15 @@ const Project = () => {
       })
       .finally(() => {
         // always executed
+        console.log(projectsArray);
       });
   }, []);
 
   useEffect(() => {
     handleRequest();
   }, [handleRequest]);
+
+  console.log('test', projectsArray);
 
   return (
     <div id="projects" className="jumbotron jumbotron-fluid bg-transparent m-0">
