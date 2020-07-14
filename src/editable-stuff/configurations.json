@@ -1,54 +1,56 @@
 {
   "backgroundType": "gradient",
   "plainBackgroundMode": "daylight",
-  "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
-  "FirstName": "Hashir",
+  "gradientColors": "#0f2027, #203a43, #2c5364",
+  "FirstName": "Alex",
   "MiddleName": "",
-  "LastName": "Shoaib",
-  "devDesc": "| Engineer | Programmer | Web Developer | Photographer | Athlete | Artist ",
+  "LastName": "Prascak",
+  "devDesc": "Software Engineer Intern @ Enova | Computer Science at University of Florida",
   "icons": [
     {
       "id": 0,
       "image": "fa-github",
-      "url": "https://github.com/hashirshoaeb",
+      "url": "https://github.com/APrascak",
       "style": "socialicons"
     },
     {
       "id": 1,
-      "image": "fa-facebook",
-      "url": "https://www.facebook.com/hashirshoaeb",
+      "image": "fa-linkedin",
+      "url": "https://www.linkedin.com/in/aprascak/",
       "style": "socialicons"
     },
     {
       "id": 2,
-      "image": "fa-instagram",
-      "url": "https://www.instagram.com/hashirshoaeb/",
-      "style": "socialicons"
-    },
-    {
-      "id": 3,
-      "image": "fa-linkedin",
-      "url": "https://www.linkedin.com/in/hashirshoaeb/",
-      "style": "socialicons"
-    },
-    {
-      "id": 4,
       "image": "fa-twitter",
-      "url": "https://www.twitter.com/hashirshoaeb/",
+      "url": "https://www.twitter.com/aprascak/",
       "style": "socialicons"
     }
   ],
   "aboutHeading": "About Me",
   "showInstaProfilePic": true,
   "instaLink": "https://www.instagram.com/",
-  "instaUsername": "hashirshoaeb",
+  "instaUsername": "alex_prascak",
   "instaQuerry": "/?__a=1",
-  "aboutDescription": "I'm Computer Engineer from NUST CEME, Pakistan with 3+ years of experience in web development. I’m currently the Vice President of student body at Emerging Technologies Research Lab(ETL) and a former Intern at RiseTech. I'm passionate about teaching machines how to think",
+  "aboutDescription": "I'm currently working for Enova International as a Software Engineer Intern. At the University of Florida, I'm a Teaching Assistant for the Intro to Software Engineering course.",
   "projectHeading": "Recent Projects",
   "gitHubLink": "https://api.github.com/users/",
-  "gitHubUsername": "hashirshoaeb",
-  "gitHubQuerry": "/repos?sort=updated&direction=desc",
-  "projectsLength": 4,
+  "gitHubUsername": "APrascak",
+  "gitHubQuerry": "/repos?&direction=asc",
+  "projectsLength": 100,
   "showNavigationbar": true,
-  "showBlog": false
+  "showBlog": false,
+  "experience": [
+    {
+      "id": 0,
+      "company": "Enova International",
+      "position": "Software Engineer Intern",
+      "description": "Building applications with Golang, Vue, & Postgres"
+    },
+    {
+      "id": 1,
+      "company": "University of Florida",
+      "position": "Teaching Assistant - Intro to Software Engineering",
+      "description": "Lead weekly discussions on MERN stack development and Git workflow to 50+ students. Graded bootcamp assignments and semester projects."
+    }
+  ]
 }

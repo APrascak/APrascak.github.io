@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Blog } from "./components/blog/Blog";
 import BlogPost from "./components/blog/BlogPost";
+import Experience from "./components/home/Experience";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <MainBody />
       <AboutMe />
       <Project />
+      <Experience />
     </Fragment>
   );
 };
